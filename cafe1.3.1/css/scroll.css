@@ -1,0 +1,44 @@
+@charset "utf-8";
+body {
+  position: relative;
+}
+
+
+.btn {
+  width: 150px;
+  max-width: 100%;
+  padding: 20px 10px;
+  font-size: 1.125rem;
+  text-align: center;
+  color: #fff;
+  background-color: powderblue;
+  transition: 1500ms;
+  opacity: 0;
+}
+
+.btn-offset {
+  position: fixed;
+  right: 0;
+  bottom: -100%;
+}
+
+.btn-fadeUp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.point {
+  color: lightpink;
+}
+
+/* .btn-offset:hover {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+} */

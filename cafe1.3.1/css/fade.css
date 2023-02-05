@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+  position: relative;
+}
+
+.trigger {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: violet;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.12), 0 2px 3px 0 rgba(0,0,0,.22);
+	transition: .3s;
+}
+
+.trigger:hover {
+  box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-4px);
+}
+
+.btn {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  border: 1px solid #000;
+  background-color: green;
+  opacity: 0.2;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+/* .fade-up {
+  transform: translate(0, -20px);
+  transition: .8s;
+  opacity: 1;
+} */
+
+.fade-up {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transition: .8s;
+  opacity: 1;
+}
+
+
+
+/* .fade-up {
+  transform: translate(0, -20px);
+  transition: .8s;
+  opacity: 1;
+} */
+
+/* .btn-offset {
+  position: absolute;
+  top: -150px;
+} */
+/* 
+.fade-in {
+  top: 0px;
+  transition: 1s;
+}
+
+.scroll-in {
+  animation: scroll-in 1s linear forwards;
+} */
+
+.wrap{
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 0 40px;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+}
+.fade-in{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 200px auto 0;
+    opacity: 0;
+    transition-duration: .5s;
+    transform: translate(0, 100px);
+}
+
+/* .fade-in {
+      transform: translate(0, 500px);
+} */
+
+.scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}  
